@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1097683700579",
+    "project_id": "cv-fresher",
+    "storage_bucket": "cv-fresher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097683700579:android:3dd3ba1d07b47b21ea2156",
+        "android_client_info": {
+          "package_name": "com.cvfresher.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097683700579-gg5b60ap3odb5dv0jmbbnhjl5ugm7ego.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJFosvPC3odCME7GSzA9m6fGkgR5rHfXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097683700579-gg5b60ap3odb5dv0jmbbnhjl5ugm7ego.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

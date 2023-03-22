@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CVFresher" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/blue_cvfresher</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_cvfresher</item>
+        <item name="colorSecondaryVariant">@color/blue_cvfresher</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/blue_cvfresher</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/blue_cvfresher</item>
+
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+
+    </style>
+
+    <style name="ProfileRound" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">47.5dp</item>
+        <item name="color">@color/blue_cvfresher</item>
+    </style>
+
+    <style name="ButtonRound" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50dp</item>
+        <item name="color">@color/blue_cvfresher</item>
+    </style>
+
+</resources>
