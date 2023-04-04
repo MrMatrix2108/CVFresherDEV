@@ -60,7 +60,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="20dp"
                 android:background="@color/white"
-                android:src="@drawable/ic_profile_dash"
+                android:src="@drawable/profilepicdefault_drawio"
                 app:shapeAppearanceOverlay="@style/ProfileRound" />
 
             <TextView
@@ -146,7 +146,7 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_experience_dash" />
+                android:src="@drawable/ic_experience_dash_drawio" />
 
         </LinearLayout>
 
@@ -191,7 +191,7 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_education_dash" />
+                android:src="@drawable/ic_education_dash_drawio" />
 
         </LinearLayout>
 
@@ -280,7 +280,7 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_certificates_dash" />
+                android:src="@drawable/ic_certificates_dash_drawio" />
 
         </LinearLayout>
 
