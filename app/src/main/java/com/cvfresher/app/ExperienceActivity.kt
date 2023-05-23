@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 class ExperienceActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_experience)
+        setContentView(R.layout.activity_index_experience)
 
         val btnAddExp = findViewById<Button>(R.id.btnAddExp)
 

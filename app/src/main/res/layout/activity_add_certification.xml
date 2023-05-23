@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/gradient_bg"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Certificates"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Entry"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="25sp"
+        android:paddingTop="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lytCertificationTitle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Certification Title"
+        app:boxStrokeColor="@color/grey"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:hintTextColor="@color/grey"
+        app:startIconDrawable="@drawable/baseline_corporate_fare_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtCertificationTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/dark_grey"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lytAwardingOrganisation"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Awarding Organisation"
+        app:boxStrokeColor="@color/grey"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:hintTextColor="@color/grey"
+        app:startIconDrawable="@drawable/baseline_work_outline_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtAwardingOrganisation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/dark_grey"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/lytDateAchieved"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            app:counterMaxLength="4"
+            app:errorEnabled="true"
+            android:hint="Date Achieved"
+            app:boxStrokeColor="@color/grey"
+            app:hintTextColor="@color/grey"
+            app:startIconDrawable="@drawable/baseline_event_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtDateAchieved"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/dark_grey"
+                android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lytCertificationDescription"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Description"
+        app:boxStrokeColor="@color/grey"
+        app:counterEnabled="true"
+        app:counterMaxLength="250"
+        app:hintTextColor="@color/grey"
+        app:startIconDrawable="@drawable/baseline_create_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtCertificationDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/dark_grey"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAddCert"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/baseline_done_24"
+        android:background="@drawable/active_button"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"/>
+
+</LinearLayout>
